@@ -2,7 +2,7 @@ import {FilterSection, Label, Input}  from './Filter.module';
 import { useSelector, useDispatch } from 'react-redux';
 
 import { filterContacts } from '../../redux/contactsSlice';
-import { getFilter } from 'redux/selectors';
+import { getFilter } from '../../redux/selectors';
 
 export const Filter = () => {
   const filter = useSelector( getFilter);

@@ -7,7 +7,7 @@ import {
   
   import { useEffect } from 'react';
   import { useSelector, useDispatch } from 'react-redux';
-  import { deleteContacts } from 'redux/operations';
+  import { deleteContacts } from '../../redux/operations';
   import {
     getLoading,
     getError,
