@@ -52,7 +52,5 @@ export const contactsSlice = createSlice({
       ),
 });
 
-// Генератори екшенів
 export const { filterContacts } = contactsSlice.actions;
-// Редюсер слайсу
 export const contactsReducer = contactsSlice.reducer;
